@@ -489,3 +489,56 @@ a {
     width: 20px !important;
     transition: all .4s ease-in-out;
 }
+
+/* adv */
+
+.adv {
+    float: right;
+    width: 100%;
+    margin-top: 25px;
+    background: linear-gradient(to right, #00d2ff , #3a7bd5);
+}
+
+.adv .right-adv {
+    float: right;
+    width: 48%;
+    padding: 45px;
+    color: #fff;
+}
+
+.adv .right-adv h2 {
+    font-size: 24px;
+}
+
+.adv .right-adv p {
+    padding-top: 25px;
+    line-height: 35px;
+    color: #d0ebff;
+    font-size: 16px;
+}
+
+.adv .right-adv a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    background: linear-gradient(to left, #fc4a1a, #fd8c14);
+    margin-top: 40px;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.adv .right-adv a:hover {
+    background: linear-gradient(to right, #fc4a1a, #fd8c14);
+}
+
+.adv .left-adv {
+    float: left;
+    width: 50%;
+    padding: 10px;
+}
+
+.adv .left-adv img {
+    max-width: 100%;
+}
