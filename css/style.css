@@ -703,7 +703,7 @@ a {
 
 /* footer */
 
-footer {
+.footer {
     background: #f5f6fa;
     float: right;
     width: 100%;
@@ -711,7 +711,7 @@ footer {
     margin-top: 50px;
 }
 
-footer .aboute {
+.footer .aboute {
     float: right;
     width: 33%;
     margin-left: 55px;
@@ -730,7 +730,7 @@ footer .aboute {
     text-align: justify;
 }
 
-footer .f-menu {
+.footer .f-menu {
     float: right;
     width: 30%;
     margin-left: 20px;
@@ -764,7 +764,7 @@ footer .f-menu {
 
 }
 
-footer .copy-right {
+.footer .copy-right {
     float: right;
     width: 100%;
     background: #163a5c;
