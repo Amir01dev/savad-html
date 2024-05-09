@@ -204,7 +204,7 @@ a {
     width: 100%;
     height: 1px;
     float: right;
-    background-color: #eee;
+    background: #eee;
     margin: 35px 0;
 }
 
@@ -265,7 +265,7 @@ a {
 }
 
 .box-tv .tv-right .first-post {
-
+    position: relative;
 }
 
 .box-tv .tv-right .first-post figure {
@@ -276,7 +276,85 @@ a {
     max-width: 100%;
 }
 
+.box-tv .tv-right .first-post figure i {
+    position: absolute;
+    top: 38%;
+    left: 46%;
+    color: #ffffff;
+    opacity: 0.9;
+    font-size: 100px;
+    transition: all 0.2s ease-in-out;
+}
+
+.box-tv .tv-right .first-post:hover i {
+    font-size: 130px;
+    top: 35%;
+    left: 45%;
+}
+
 .box-tv .tv-left {
     float: left;
     width: 39%;
+}
+
+.tv-left .other-post {
+    float: left;
+    width: 46%;
+    position: relative;
+    margin: 0 18px 16px 0;
+}
+
+.tv-left .other-post:hover i {
+    color: #e74c3c;
+}
+
+.tv-left .other-post a {
+    text-decoration: none;
+    background: #ecf0f1;
+    display: inline-block;
+}
+
+.tv-left .other-post a figure {
+    line-height: 25px;
+}
+
+.tv-left .other-post a figure img {
+    max-width: 100%;
+}
+
+.tv-left .other-post a figure i {
+    position: absolute;
+    top: 22%;
+    left: 43%;
+    font-size: 45px;
+    color: #fff;
+    opacity: 0.9;
+    transition: all .2s ease-in-out;
+}
+
+.tv-left .other-post a figure h2 {
+    font-size: 15px;
+    text-align: center;
+    color: #444;
+    padding: 0 9px 7px;
+}
+
+.tv-left .more-tv {
+    float: right;
+    width: 100%;
+    padding-right: 25px;
+}
+
+.tv-left .more-tv a {
+    text-decoration: none;
+    color: #fff;
+    background: #5caf21;
+    padding: 5px;
+    display: block;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.more-tv a:hover {
+    background: #7f8c8d;
 }
