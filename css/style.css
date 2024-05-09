@@ -542,3 +542,161 @@ a {
 .adv .left-adv img {
     max-width: 100%;
 }
+
+/* Course */
+
+.course {
+    float: right;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.course .course-head {
+    float: right;
+    width: 100%;
+}
+
+.course .course-head .course-title {
+    float: right;
+}
+
+.course .course-head .course-title h2 {
+    font-size: 23px;
+}
+
+.course .course-head .course-title h5 {
+    font-size: 15px;
+    color: #5d5d5d78;
+}
+
+.course .course-head .course-link {
+    float: left;
+    margin-top: 5px;
+}
+
+.course .course-head .course-link a {
+    border: 2px solid #5caf21;
+    color: #5caf21;
+    text-decoration: none;
+    padding: 5px 15px;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+.course .course-head .course-link a:hover {
+    background: #5caf21;
+    color: #fff;
+}
+
+/* Course slider */
+
+.course-slider {
+    float: right;
+    width: 100%;
+    direction: ltr;
+    margin-top: 25px;
+}
+
+.box-course {
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    overflow: hidden;
+    transition: all .2s ease-in-out;
+}
+
+.box-course img{
+
+}
+
+.box-course h2 {
+    font-size: 16px;
+    text-align: right;
+    padding: 15px 10px;
+}
+
+.box-course h2 a {
+    text-decoration: none;
+    color: #313131;
+    font-weight: bolder;
+    display: block;
+}
+
+.box-course h2 a:hover {
+    color: #5caf21;
+}
+
+.box-course:hover .btn-more a{
+    background: #5caf21;
+    color: #fff;
+}
+
+.box-course .desc {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 12px;
+    border-bottom: 1px solid #ddd;
+}
+
+.box-course .desc .rate {
+
+}
+.box-course .desc .rate i {
+    color: #f9a134;
+    font-size: 16px;
+}
+
+.box-course .desc .teacher {
+    color: #858585;
+}
+
+.box-course .desc .teacher i {
+    font-size: 18px;
+}
+
+.box-course .detail {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 12px;
+    color: #858585;
+}
+
+.box-course .detail .price {
+
+}
+
+.box-course .detail .price del {
+
+}
+
+.box-course .detail .price ins {
+    background: #29ca4a;
+    color: #fff;
+    text-decoration: none;
+    padding: 2px 12px 0;
+    border-radius: 3px;
+}
+
+.box-course .detail .users{
+
+}
+
+.box-course .detail .users i {
+    font-size: 18px;
+    color: #fff;
+    text-shadow: 0 0 2px #000;
+    margin-right: 2px;
+}
+
+.course-slider .owl-carousel .owl-nav button.owl-next, .course-slider .owl-carousel .owl-nav button.owl-prev {
+    position: absolute;
+    top: 33%;
+    font-size: 50px;
+    padding: 11px 18px !important;
+    color: #afafaf;
+    border-radius: 50%;
+    background: #fff;
+    box-shadow: 0 0 6px #ddd;
+    visibility: hidden;
+    opacity: 0;
+    transition: all .3s ease-in-out;
+}
