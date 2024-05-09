@@ -358,3 +358,134 @@ a {
 .more-tv a:hover {
     background: #7f8c8d;
 }
+
+/* article */
+.article {
+    width: 100%;
+    float: right;
+    margin-top: 30px;
+}
+
+.article .article-head {
+    float: right;
+    width: 100%;
+}
+
+.article .article-head .article-title {
+    float: right;
+}
+
+.article .article-head .article-title h2 {
+    font-size: 23px;
+}
+
+.article .article-head .article-title h5 {
+    font-size: 15px;
+    color: #5d5d78;
+}
+
+.article .article-head .article-link {
+    float: left;
+    margin-top: 5px;
+}
+
+.article .article-head .article-link a {
+    display: inline-block;
+    padding: 5px 15px;
+    border: 1px solid #5caf21;
+    color: #5caf21;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.article .article-head .article-link a:hover {
+    background-color: #5caf21;
+    color: #fff;
+}
+
+/* article slider */
+
+.article-slider {
+    float: right;
+    width: 100%;
+    direction: ltr;
+    margin-top: 25px;
+}
+
+.box-article {
+    border: 1px solid #ccc;
+}
+
+.box-article img{
+
+}
+
+.box-article h2 {
+    font-size: 16px;
+    text-align: center;
+    padding: 15px 10px;
+}
+
+.box-article h2 a{
+    text-decoration: none;
+    color: #313131;
+    font-weight: bolder;
+    display: block;
+}
+
+.box-article p {
+    color: #777;
+    padding: 0 12px;
+}
+
+.box-article .btn-more{
+
+}
+
+.box-article .btn-more a {
+    background: #ecf0f1;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #8b8b8b;
+    padding: 4px;
+    margin-top: 20px;
+}
+
+.box-article:hover .btn-more a{
+    background: #5caf21;
+    color: #fff;
+}
+
+.article-slider .owl-carousel .owl-nav button.owl-next, .article-slider .owl-carousel .owl-nav button.owl-prev {
+    position: absolute;
+    top: 33%;
+    font-size: 50px;
+    padding: 11px 18px !important;
+    color: #afafaf;
+    border-radius: 50%;
+    background: #fff;
+    box-shadow: 0 0 6px #ddd;
+    visibility: hidden;
+    opacity: 0;
+    transition: all .3s ease-in-out;
+}
+
+#multi_slider:hover .owl-nav button.owl-next , #multi_slider:hover .owl-nav button.owl-prev {
+    visibility: visible;
+    opacity:1;
+}
+
+.article-slider .owl-carousel .owl-nav button.owl-next {
+    right: -25px;
+}
+
+.article-slider .owl-carousel .owl-nav button.owl-prev {
+    left: -25px;
+}
+
+.owl-theme .owl-dots .owl-dot.active span {
+    background: #5caf21 !important;
+    width: 20px !important;
+    transition: all .4s ease-in-out;
+}
