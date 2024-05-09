@@ -268,10 +268,6 @@ a {
     position: relative;
 }
 
-.box-tv .tv-right .first-post figure {
-
-}
-
 .box-tv .tv-right .first-post figure img {
     max-width: 100%;
 }
@@ -416,10 +412,6 @@ a {
     border: 1px solid #ccc;
 }
 
-.box-article img{
-
-}
-
 .box-article h2 {
     font-size: 16px;
     text-align: center;
@@ -436,10 +428,6 @@ a {
 .box-article p {
     color: #777;
     padding: 0 12px;
-}
-
-.box-article .btn-more{
-
 }
 
 .box-article .btn-more a {
@@ -604,10 +592,6 @@ a {
     transition: all .2s ease-in-out;
 }
 
-.box-course img{
-
-}
-
 .box-course h2 {
     font-size: 16px;
     text-align: right;
@@ -637,9 +621,6 @@ a {
     border-bottom: 1px solid #ddd;
 }
 
-.box-course .desc .rate {
-
-}
 .box-course .desc .rate i {
     color: #f9a134;
     font-size: 16px;
@@ -660,24 +641,12 @@ a {
     color: #858585;
 }
 
-.box-course .detail .price {
-
-}
-
-.box-course .detail .price del {
-
-}
-
 .box-course .detail .price ins {
     background: #29ca4a;
     color: #fff;
     text-decoration: none;
     padding: 2px 12px 0;
     border-radius: 3px;
-}
-
-.box-course .detail .users{
-
 }
 
 .box-course .detail .users i {
@@ -744,10 +713,6 @@ a {
     list-style: none;
 }
 
-.f-menu ul li i {
-
-}
-
 .f-menu ul li a {
     text-decoration: none;
     color: #4a4a4a;
@@ -758,10 +723,6 @@ a {
     color: #5caf21;
     font-weight: bold;
     padding-right: 10px;
-}
-
-.f-menu ul p{
-
 }
 
 .footer .copy-right {
