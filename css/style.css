@@ -28,6 +28,16 @@ a {
     margin-right: auto;
     margin-left: auto;
 }
+
+
+.line {
+    width: 1366px;
+    display: flex;
+    height: 35px;
+    border-bottom: 1px solid #eee;
+    margin: 35px 0;
+}
+
 /* style for top bar menu */
 .top-menu {
     width: 100%;
@@ -108,6 +118,10 @@ a {
     text-decoration: none;
     font-size: 15px;
     font-weight: bold;
+}
+
+.main-menu ul li a:hover {
+    color: #5caf21;
 }
 
 .main-menu ul li a i {
@@ -198,14 +212,6 @@ a {
 
 .owl-carousel .owl-nav button.owl-prev {
     left: 0;
-}
-
-.line {
-    width: 100%;
-    height: 1px;
-    float: right;
-    background: #eee;
-    margin: 35px 0;
 }
 
 /* tv */
