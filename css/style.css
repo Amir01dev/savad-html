@@ -683,7 +683,6 @@ a {
     float: right;
     width: 100%;
     padding-top: 50px;
-    margin-top: 50px;
 }
 
 .footer .aboute {
@@ -756,4 +755,88 @@ a {
 
 .copy-right .social a i:hover {
     color: #fff;
+}
+
+/* single */
+
+.single-page {
+    width: 100%;
+    float: right;
+    background: #f8f9fa;
+}
+
+.single-page .main-single {
+    float: right;
+    width: 71%;
+    margin: 30px 0;
+}
+
+.post-single {
+    float: right;
+    width: 100%;
+    background: #fff;
+    border-radius: 4px;
+    padding: 15px;
+    border: 1px solid #e5e5e5;
+}
+
+.post-single header {
+    margin-bottom: 20px;
+    float: right;
+    width: 100%;
+}
+
+.post-single header h1 {
+    border-bottom: 2px solid #f3f3f3;
+    padding: 10px 10px 20px;
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+.post-single .post-meta {
+    float: right;
+    margin-left: 25px;
+    font-size: 13.5px;
+    color: #8f8f8f;
+}
+
+.post-single .post-meta i {
+    margin-left: 5px;
+}
+
+.post-single .post-meta a {
+    color: #8f8f8f;
+    text-decoration: none;
+}
+
+.post-single .post-thumbnail {
+    margin-bottom: 30px;
+}
+
+.post-single .post-thumbnail img {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.post-single .content-single {
+
+}
+
+.post-single .content-single p {
+    font-size: 18px;
+    line-height: 35px;
+    text-align: justify;
+    padding: 10px;
+    overflow: hidden;
+}
+
+.post-single .content-single p img{
+    max-width: 100%;
+}
+
+.single-page .sidebar {
+    float: left;
+    width: 28%;
+    margin: 30px 0;
 }
