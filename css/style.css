@@ -422,6 +422,10 @@ a {
     border: 1px solid #ccc;
 }
 
+.box-article img {
+    max-width: 100%;
+}
+
 .box-article h2 {
     font-size: 16px;
     text-align: center;
@@ -909,4 +913,17 @@ a {
 .single-widget ul li a:hover {
     padding-right: 10px;
     color: #5caf21;
+}
+
+/* category page */
+
+.category-post .box-article {
+    float: right;
+    width: 31%;
+    margin-left: 15px;
+    margin-bottom: 20px;
+}
+.category-post .category-head {
+    font-size: 18px;
+    margin-bottom: 30px;
 }
