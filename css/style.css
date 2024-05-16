@@ -831,6 +831,39 @@ a {
     max-width: 100%;
 }
 
+.related-post {
+    float: right;
+    width: 100%;
+    background: #fff;
+    border-radius: 4px;
+    padding: 0 15px 15px;
+    border: 1px solid #e5e5e5;
+    margin-top: 30px;
+}
+
+.related-post .related-head {
+    padding: 15px;
+    border-bottom: 1px solid #eeeeee;
+    font-size: 18px;
+}
+
+.related-post .related-head h4 {
+
+}
+
+#related-slider:hover .owl-nav button.owl-next , #related-slider:hover .owl-nav button.owl-prev {
+    visibility: visible;
+    opacity:1;
+}
+
+.related-post .box-article {
+    margin: 0 5px;
+    border: 0;
+    box-shadow: 0 0 13px #eef0f1;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
 .single-page .sidebar {
     float: left;
     width: 28%;
